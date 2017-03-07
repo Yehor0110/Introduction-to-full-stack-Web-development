@@ -1,0 +1,228 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	box-sizing: border-box;
+	background-color: white;
+	width: 100%;
+	height: 90px;
+	align-items: center;
+	font-size: 0;
+	
+}
+
+header .logotype {
+	display: inline-block;
+	width: 50%;
+}
+
+header .logotype img {
+	width: 124px;
+	height: 47px;
+	margin: 20px 10px 10px 120px;
+
+}
+
+header nav {
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	vertical-align: top;
+	margin-top: 35px;
+	margin-bottom: 45px;
+	
+}
+
+header nav ul {
+	margin-right: 120px;
+}
+
+header nav li {
+	font-size: 18px;
+	display: inline-block;
+	padding-left: 50px;
+	overflow: hidden;
+}
+
+header nav li a {
+	vertical-align: center;
+	text-decoration: none;
+	color: #241925;
+}
+
+.unit {
+	width: 100%;
+	height: 550px;
+	background-color: #1ABC9C;
+	font-size: 0;
+}
+
+.iphone {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 50%;
+	margin-top: 45px;
+}
+
+.deals {
+	width: 50%;	
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+}
+
+.appTitle {
+	height: 160px;
+}
+
+.appTitle h2 {
+	font-size: 37px;
+	padding: 110px 20px 20px 0;
+}
+
+.txt{
+	height: 250px;
+}
+
+.txt p {
+	font-size: 21px;
+	line-height: 27pt;
+	padding: 40px 20px 20px 0;
+}
+
+a.buyNowButton {
+	color: white;
+	font-size: 30px;
+	height: 140px;
+	width: 50px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none
+}
+
+.services {
+	height: 370px;
+	margin-top: 5px;
+}
+
+.servicesMod {
+	width: 100%;
+	height: 100%;
+}
+
+.webDev, .mobDev, .highload {
+	display: inline-block;
+	margin-top: 33px;
+	vertical-align: top;
+	width: 33%;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #F3DECB;	
+}
+
+.webDev i, .mobDev i, .highload i {
+	background-color: #1ABC9C;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 15px 20px;
+}
+
+.webDev h3, .mobDev h3, .highload h3 {
+	margin-top: 25px;
+	color: #241925;
+}
+
+.webDev p, .mobDev p, .highload p {
+	margin: 15px 10px 0 10px;
+	color: #241925;
+}
+
+.form {
+	width: 100%;
+	background-color: #1ABC9C;
+}
+
+.form h1 {
+	text-align: center;
+	color: #ffffff;
+	padding: 50px 0;
+}
+
+.styleForm {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+input[type=text], input[type=email], 
+input[type=usrtel], input[type=password], 
+input[type=date], input[type=datetime-local],
+input[type=search], input[type=week], 
+input[type=time], input[type=url], textarea {
+
+	width: 100%;
+	height: 50px;
+	color: green;
+	margin: 10px 10px;
+	padding: 10px 10px;
+	
+}
+
+textarea {
+
+	width: 100%;
+	height: 200px;
+}
+
+input[type="checkbox"], input[type="number"], 
+input[type="radio"], input[type=select], 
+input[type="color"] {
+
+	margin: 20px;
+
+}
+
+input[type=submit], input[type=reset] {
+
+	background-color: #1ABC9C;
+    color: #ffffff;
+    border: 1px solid white;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+
+	}
+
+input[type=send] {
+
+	background-color: #1ABC9C;
+    color: #ffffff;
+    border: 2px solid white;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    padding: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    text-decoration: none;
+
+	}
+}
